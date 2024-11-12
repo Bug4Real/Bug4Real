@@ -1,9 +1,9 @@
 - 👋 Hi, I’m @Bug4Real
 - 👀 I’m interested in CyberSecurity 
 - 🌱 I’m currently learning Python
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me YT- Snipe X Pahadi 
-- 😄 Pronouns: Gamer,Programmer
+- 💞️ I’m looking to collaborate on Cybersecurity learning...
+- 📫 How to reach me Instagram I'd - snipex_awm
+- 😄 Pronouns: Gamer,Programmer, H4cker 
 - ⚡ Fun fact: Gaming Fun
 
 <!---
