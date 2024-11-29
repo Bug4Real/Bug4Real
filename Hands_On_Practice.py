@@ -15,3 +15,8 @@ circumference = float(input("Enter the circumference of the grassland: "))
 radius = circumference/2 #radius is half of the circumference
 area = 3.14 * radius * radius
 print("The area of the grassland is", area)
+
+
+#Q3: Accept the height of the user in feet and inches separated by decimal. Example: 60.7 means 5 feet 7 inches. Then display the height in feet and inches separately. Example: Feet=5, Inches=7.0
+
+#Solution_Q3:
