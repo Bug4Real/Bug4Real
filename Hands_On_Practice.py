@@ -20,3 +20,6 @@ print("The area of the grassland is", area)
 #Q3: Accept the height of the user in feet and inches separated by decimal. Example: 60.7 means 5 feet 7 inches. Then display the height in feet and inches separately. Example: Feet=5, Inches=7.0
 
 #Solution_Q3:
+height = input("Enter your height in feet and inches separated by decimal: ")
+feet, inches = map(int, height.split("."))
+print( "Feet:", feet/12, "\nInches:", inches)
