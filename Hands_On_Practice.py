@@ -23,3 +23,25 @@ print("The area of the grassland is", area)
 height = input("Enter your height in feet and inches separated by decimal: ")
 feet, inches = map(int, height.split("."))
 print( "Feet:", feet/12, "\nInches:", inches)
+
+
+#Q4: Display the Fibonacci series 1,1,2,3,5,8,13,21
+
+#Solution_Q4:
+# Get the number of terms from the user
+n = int(input("Enter the number of terms: "))
+
+# Initialize the first two terms
+a = 0
+b = 1
+
+# Print the first two terms (optional)
+print(a, end=" ")
+print(b, end=" ")
+
+# Calculate and print the remaining terms
+for i in range(2, n):
+    c = a + b
+    print(c, end=" ")
+    a = b
+    b = c
