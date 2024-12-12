@@ -45,3 +45,11 @@ for i in range(2, n):
     print(c, end=" ")
     a = b
     b = c
+
+
+#Q5: Accept a 4-digit number and display it in reverse 
+
+#Solution_Q5:
+num = int(input("Enter a 4-digit number: "))
+reversed_num = str(num)[::-1]
+print("Reversed number:", reversed_num)
