@@ -53,3 +53,22 @@ for i in range(2, n):
 num = int(input("Enter a 4-digit number: "))
 reversed_num = str(num)[::-1]
 print("Reversed number:", reversed_num)
+
+
+#Q6: Accept marks of 10 students in English and Hindi then count how many students have secured average marks of the two subjects as more than 60%
+
+#Solution_Q6:
+average = 0
+count = 0
+for i in range(1,11):
+    hindi = int(input(f"Enter marks for student  {i} in Hindi: "))
+    print(hindi)
+    english = int(input(f"Enter marks for student  {i} in English: "))
+    print(english)
+    average = (hindi + english) / 2
+    print("Average marks for student", i, "is", average)
+    if average > 60:
+        count += 1
+    elif average < 60:
+        count += 0
+print("Number of Students who have scored more than 60% is",count)
